@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: aliceblue;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+}
+
+main {
+  display: flex;
+  width: 1000px;
+  height: 410px;
+  border-radius: 10px 0px 0px 10px;
+
+  
+  background-color: hsl(244, 37%, 16%);
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px ;
+  padding: 10px;
+}
+
+#imagem {
+  
+  background-image: url(images/image-header-desktop.jpg);
+  background-size: 100% ;
+  background-position: center;
+  background-color:  hsl(277, 64%, 61%); /* cor da sobreposição */
+  background-blend-mode: multiply; /* mistura a cor com a imagem */
+
+
+}
+
+
+h1{
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+#insights{
+  color:hsl(277, 64%, 61%) ;
+}
+
+#descricao{
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px;
+  text-align:justify;
+}
+
+.stats{
+  font-family:"Inter", sans-serif ;
+  display: flex;  
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  
+}
+
+.stat{
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 2rem; /* tamanho dos números */
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat p {
+  text-transform: uppercase;
+
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #a0a0b2; /* tom mais claro */
+  margin: 5px 0 0;
+}
